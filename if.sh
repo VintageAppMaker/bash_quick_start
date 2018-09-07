@@ -15,15 +15,15 @@
 # 문자열비교 - 1
 if [ -z "$1" ]
 then
-	echo "No command-line arguments."
+    echo "No command-line arguments."
 else
-	echo "First command-line argument is $1."
+    echo "First command-line argument is $1."
 fi
 
 # 문자열비교 - 2  
 if [ "1234" ==  "$1" ]
 then
-	echo "1234 is..."
+    echo "1234 is..."
 fi
 
 # >>> 숫자비교 
@@ -39,17 +39,17 @@ fi
 second=21
 if [ "$1" -gt "$second" ]
 then
-	echo "great then second"
+    echo "great then second"
 else 
-	echo "lesser then second"
+    echo "lesser then second"
 fi
 
 # 숫자비교 - 2
 if  (($1 > second))
 then
-	echo "great then second"
+    echo "great then second"
 else 
-	echo "lesser then second"
+    echo "lesser then second"
 fi
 
 # >>> File 비교 
@@ -62,7 +62,7 @@ fi
 # 파일, 디렉토리 
 if [ -e $2 ]
 then
-	echo "exist"
+    echo "exist"
 fi 
 
 # ||(첫번째가 false이면 다음구문 실행) && (첫번째가 True이면 다음구문 실행)

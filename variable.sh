@@ -37,9 +37,9 @@ list=( apple pineapple banana )
 cnt=0
 for i in ${list[@]}
 do
-	echo -n $i :
-	echo " ${list[cnt]} "
-	((cnt++))
+    echo -n $i :
+    echo " ${list[cnt]} "
+    ((cnt++))
 done
 
 

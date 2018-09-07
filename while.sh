@@ -12,7 +12,7 @@ i=0
 while (( i < max  )) 
 do
     echo $i
-	(( i++ ))
+    (( i++ ))
 done
 
 #>> while 구문 - [] 
@@ -27,7 +27,7 @@ i=0
 while [ "$i" -lt "$max" ]
 do
     echo $i
-	(( i++ ))
+    (( i++ ))
 done
 
 #>> while 구문 - 명령어 (read와 < 의 조합)
@@ -41,10 +41,10 @@ echo "input text:"
 while read ans
 do
     echo "you wrote: " $ans
-	if [ "$ans" == "quit" ]
-	then
-	    break	
-	fi
+    if [ "$ans" == "quit" ]
+    then
+        break	
+    fi
     echo "input text:"
 done
 
