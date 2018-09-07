@@ -23,3 +23,9 @@
 - [ ] [redirection.sh](redirection.sh)
 - [ ] [subsitution.sh](subsitution.sh)
 
+
+유틸리티  
+
+- [ ] [awk_sed.sh](awk_sed.sh)
+
+      ​
