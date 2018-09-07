@@ -18,12 +18,8 @@
 기초지식 
 
 - [ ] [async_pipe.sh](async_pipe.sh)
-
 - [ ] [predefine_var.sh](predefine_var.sh)
-
 - [ ] [parameter_expansion.sh](parameter_expansion.sh)
-
 - [ ] [redirection.sh](redirection.sh)
-
 - [ ] [subsitution.sh](subsitution.sh)
 
