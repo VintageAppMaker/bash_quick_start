@@ -27,6 +27,3 @@
 
 - [ ] [subsitution.sh](subsitution.sh)
 
-      ​
-
-      ​
