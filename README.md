@@ -27,5 +27,3 @@
 유틸리티  
 
 - [ ] [awk_sed.sh](awk_sed.sh)
-
-      ​
