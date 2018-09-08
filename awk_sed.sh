@@ -8,7 +8,7 @@
 # 예제 - 1 
 ifconfig | sed -n '/192/p'
 
-# 치환 : sed -n '/검색어/p'
+# 치환 : sed -n 's/원본/변경/'
 # 예제 - 2 
 ls *.sh | sed 's/sh/dat/'
 
