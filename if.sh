@@ -70,28 +70,28 @@ a=0
 b=1
 if [ "$a" -eq 1 ] || [ "$b" -eq 1 ] 
 then
-  echo "false || true이면 실행됨"
+    echo "false || true이면 실행됨"
 fi
 
 if [ "$a" -eq 0 ] && [ "$b" -eq 1 ] 
 then
-  echo "true && true이면 실행됨"
+    echo "true && true이면 실행됨"
 fi
 
 # test 명령어(0:true, 1:false)
 if test -e /etc/passwd
 then
-  echo "/etc/passwd exist" 
+    echo "/etc/passwd exist" 
 fi
 
 if test $a -eq 0 
 then
-  echo '$a' "-eq 0"
+    echo '$a' "-eq 0"
 fi
 
 # if 문장이 있는 줄에 then을 넣을경우, ;를 사용함 
 if test $a -eq 0; then
-  echo '$a' "-eq 0 ;를 사용했음"
+    echo '$a' "-eq 0 ;를 사용했음"
 fi
 
 
